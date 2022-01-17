@@ -1,6 +1,6 @@
 ## Budgetio
 
-Budgetio is a very simple Budget Calculator built using React. 
+Budgetio is a very simple Budget Calculator built using React and localStorage. 
 
 - [Demo Website Budgetio](https://budgetio.netlify.app/)
 
@@ -46,7 +46,7 @@ Todo :
 
 - React
 - React Bootstrap
-- Features Prop Drilling, useEffect, useState and Context
+- Features Prop Drilling, useEffect, useState and Context, localStorage
 
 ## Author
 
