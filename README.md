@@ -10,6 +10,8 @@ Budgetio is a very simple Budget Calculator built using React.
 
 To start tracking expenses we first need to add budget categories (with a default uncategorized category)
 Then we start adding expenses to our categories
+
+
 ![Adding Budgets + Expenses](./assets/screenshots/bdgt1.gif)
 
 ### Viewing + Deleting
