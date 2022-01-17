@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Budgetio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Budgetio is a very simple Budget Calculator built using React. 
 
-## Available Scripts
+- [Demo Website Budgetio](https://budgetio.netlify.app/)
 
-In the project directory, you can run:
+## FEATURES
 
-### `npm start`
+### Adding Budgets + Expenses
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To start tracking expenses we first need to add budget categories (with a default uncategorized category)
+Then we start adding expenses to our categories
+![Adding Budgets + Expenses](./assets/screenshots/bdgt1.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Viewing + Deleting
 
-### `npm test`
+For each budget category we can see the list of expenses added to it and delete expenses / budgets.
+When we delete budgets or expenses their amount goes into the uncategorized as untracked
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Viewing + Deleting](./assets/screenshots/bdgt2.gif)
 
-### `npm run build`
+### Overbudget
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Going Over budget triggers a color warning 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Overbudget](./assets/screenshots/bdgt3.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+Features Done :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] Add Budget + Expenses
+- [x] Show Budget + Expenses
+- [x] Delete Budget + Expenses
+- [x] Tracking deleted expenses
+- [x] Calculating the Total
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Todo :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] Better Design
+- [ ] ...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Built With
 
-## Learn More
+- React
+- React Bootstrap
+- Features Prop Drilling, useEffect, useState and Context
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Bensaad Soukaina**
 
-### Code Splitting
+- [Linkedin](https://www.linkedin.com/in/soukaina-bensaad/ "Linkedin")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
